@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Klinik Hikmah Husada - Layanan Kesehatan Ibu &amp; Anak Terpercaya</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#97f994",
+                        "on-tertiary-fixed": "#241a00",
+                        "surface-dim": "#d9dadb",
+                        "on-primary-fixed": "#001b3c",
+                        "inverse-surface": "#2e3132",
+                        "on-error-container": "#93000a",
+                        "tertiary": "#765b00",
+                        "surface-container": "#edeeef",
+                        "on-tertiary-container": "#503d00",
+                        "tertiary-fixed-dim": "#f3c01a",
+                        "on-secondary-fixed-variant": "#005314",
+                        "text-main": "#212529",
+                        "secondary-fixed": "#97f994",
+                        "inverse-primary": "#a8c8ff",
+                        "secondary-fixed-dim": "#7cdc7b",
+                        "on-secondary-fixed": "#002204",
+                        "on-primary-container": "#a2c4ff",
+                        "primary-fixed": "#d6e3ff",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#f3f4f5",
+                        "primary-container": "#195092",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "outline": "#737782",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-secondary-container": "#097522",
+                        "on-background": "#191c1d",
+                        "inverse-on-surface": "#f0f1f2",
+                        "primary-fixed-dim": "#a8c8ff",
+                        "surface-tint": "#2d5fa1",
+                        "on-surface-variant": "#424750",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#ffdf93",
+                        "on-tertiary-fixed-variant": "#594400",
+                        "warmth-yellow": "#F9C522",
+                        "on-primary-fixed-variant": "#064688",
+                        "surface-variant": "#e1e3e4",
+                        "surface-bright": "#f8f9fa",
+                        "background": "#f8f9fa",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#191c1d",
+                        "vitality-green": "#52B055",
+                        "surface-gray": "#F8F9FA",
+                        "surface": "#f8f9fa",
+                        "tertiary-container": "#d3a500",
+                        "trust-blue": "#195092",
+                        "surface-container-high": "#e7e8e9",
+                        "primary": "#003971",
+                        "outline-variant": "#c2c6d2",
+                        "secondary": "#006e1d"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "base": "8px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Inter"],
+                        "caption": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-xl": ["Inter"],
+                        "headline-lg-mobile": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .soft-shadow {
+            box-shadow: 0px 4px 20px rgba(25, 80, 146, 0.08);
+        }
+    </style>
+</head>
+<body class="bg-surface-gray text-on-surface font-body-md text-body-md antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="bg-surface/90 dark:bg-surface-dim/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 shadow-sm transition-all">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<img alt="Klinik Hikmah Husada Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFpN3bDmHGpytwj7iZMoYGZNpnfapcwSiNnUquD56dTrJzSL-0hBff32rxMXcTzbGbSqVmItMRIUP5zGkBy70pFjWz2MCe2xdeVMj6XZPlXcXzdAIg95TsP4zCnE0VKLUjc1rQ776DAwuHyqNHkDAXguneSVwF4sfiut-bLrfvnq6cM5jHLMje4aw67EEytRjv7GZ25yMrnxMC6zKT450jLWcse2wrlj97Lto5Svki-FWSorQhdXN4HdfQFjRt1UtfZtXI8x_YjFo_"/>
+<span class="text-headline-md font-headline-md text-trust-blue tracking-tight hidden sm:block">KLINIK HIKMAH HUSADA</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-trust-blue font-bold border-b-2 border-trust-blue pb-1 text-label-md font-label-md" href="#home">Home</a>
+<a class="text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#profile">About</a>
+<a class="text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#services">Services</a>
+<a class="text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#schedule">Schedule</a>
+<a class="text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#contact">Contact</a>
+</nav>
+<a class="hidden md:inline-flex items-center justify-center bg-trust-blue text-on-primary px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-primary transition-colors soft-shadow" href="https://api.whatsapp.com/send/?phone=6285281761812">
+                Book Appointment
+            </a>
+<button class="md:hidden text-trust-blue p-2" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined text-3xl" id="mobile-menu-icon">menu</span>
+</button>
+</div>
+<!-- Mobile Menu -->
+<div class="hidden md:hidden bg-surface dark:bg-surface-dim border-t border-outline-variant/30 px-margin-mobile py-4 space-y-4 shadow-lg absolute w-full" id="mobile-menu">
+<a class="block text-trust-blue font-bold text-label-md font-label-md" href="#home" onclick="toggleMobileMenu()">Home</a>
+<a class="block text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#profile" onclick="toggleMobileMenu()">About</a>
+<a class="block text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#services" onclick="toggleMobileMenu()">Services</a>
+<a class="block text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#schedule" onclick="toggleMobileMenu()">Schedule</a>
+<a class="block text-on-surface-variant hover:text-trust-blue transition-colors text-label-md font-label-md" href="#contact" onclick="toggleMobileMenu()">Contact</a>
+<a class="block w-full text-center bg-trust-blue text-on-primary px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-primary transition-colors soft-shadow mt-4" href="https://api.whatsapp.com/send/?phone=6285281761812" onclick="toggleMobileMenu()">
+    Book Appointment
+</a>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="pt-32 pb-20 md:pt-40 md:pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto relative" id="home">
+<div class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-trust-blue/20 via-surface to-surface-gray"></div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 bg-secondary-container/30 px-4 py-2 rounded-full border border-secondary-container/50">
+<span class="material-symbols-outlined text-secondary text-sm">verified</span>
+<span class="text-label-md font-label-md text-secondary">Mitra Resmi BPJS Kesehatan</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-primary leading-tight">
+                    Layanan Kesehatan Ibu &amp; Anak Terpercaya di Bekasi
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                    Klinik Hikmah Husada hadir memberikan pelayanan kesehatan profesional, ramah, dan terjangkau untuk keluarga Anda. Melayani pasien BPJS dengan fasilitas lengkap.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="inline-flex items-center gap-2 bg-vitality-green text-white px-8 py-4 rounded-lg font-label-md text-label-md hover:bg-secondary transition-colors soft-shadow" href="https://api.whatsapp.com/send/?phone=6285281761812">
+<span class="material-symbols-outlined">calendar_month</span>
+                        Book Appointment
+                    </a>
+<a class="inline-flex items-center gap-2 border border-outline px-8 py-4 rounded-lg font-label-md text-label-md text-trust-blue hover:bg-surface-container transition-colors" href="#services">
+                        Lihat Layanan
+                    </a>
+</div>
+</div>
+<div class="relative hidden lg:block h-[500px] rounded-2xl overflow-hidden soft-shadow" data-alt="A brightly lit, modern clinical waiting area with comfortable seating, a receptionist desk in the background, and soft natural light streaming through large windows. The overall aesthetic is clean, professional, and welcoming, using a color palette of soft whites, calming blues, and light wood tones. The atmosphere feels reassuring and calm, suitable for a trusted maternity and pediatric clinic." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCo6SHqy85bi8bAdikFx3_qPdZ9zP9Hju3snc3TPL5azk2KqCNKqWcWpPzeZMxO8pveUf6G0RHB1XKCXADvyAFIcDOgU5dLg0m5wUkFgdrJTNeGRUISDK7DfjXzxO5iVEZXFMlTDmPH0lA1mjBD7_XD-lJ2RaJCSpTeAfe_6j7aTstgei1O2W-N5ZB29NdUKxUmYC5nMxANYvhhU46SHURysnfRbu7en5d-tWasrFxOYgEFekyQ9nYeHnpZReT5zfmAqrpW0gyXYKCO"); background-size: cover; background-position: center center;'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-xl flex items-center justify-between">
+<div>
+<p class="font-label-md text-label-md text-trust-blue">Buka Setiap Hari</p>
+<p class="font-headline-md text-headline-md text-primary">08:00 - 21:00</p>
+</div>
+<div class="w-12 h-12 rounded-full bg-trust-blue flex items-center justify-center">
+<span class="material-symbols-outlined text-white">schedule</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Profile Section -->
+<section class="py-20 bg-white" id="profile">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="max-w-3xl mx-auto text-center space-y-6">
+<span class="text-trust-blue font-label-md text-label-md uppercase tracking-wider">Tentang Kami</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Komitmen Kami untuk Kesehatan Keluarga</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+                    Dikelola secara profesional oleh PT. HIKMAH HUSADA JAGAWANA, Klinik Hikmah Husada berdedikasi untuk menjadi pusat layanan kesehatan pratama yang terpercaya di Bekasi. Kami mengutamakan keselamatan pasien, ketepatan diagnosa, dan kenyamanan dalam setiap tahap perawatan. Visi kami adalah menciptakan generasi sehat melalui pelayanan preventif dan kuratif yang mudah diakses oleh seluruh lapisan masyarakat.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 justify-items-center max-w-5xl mx-auto">
+<!-- Keunggulan Bento -->
+<div class="bg-surface-gray p-8 rounded-2xl soft-shadow border border-outline/10 text-center w-full max-w-sm">
+<span class="material-symbols-outlined text-4xl text-trust-blue mb-4">medical_services</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Layanan Lengkap</h3>
+<p class="text-on-surface-variant">Dari poli umum hingga laboratorium, semua kebutuhan dasar tersedia.</p>
+</div>
+<div class="bg-surface-gray p-8 rounded-2xl soft-shadow border border-outline/10 text-center w-full max-w-sm">
+<span class="material-symbols-outlined text-4xl text-trust-blue mb-4">location_on</span>
+<h3 class="font-label-md text-label-md text-primary mb-2">Lokasi Strategis</h3>
+<p class="text-sm text-on-surface-variant">Mudah dijangkau di Sukatani.</p>
+</div>
+<div class="bg-surface-gray p-8 rounded-2xl soft-shadow border border-outline/10 text-center w-full max-w-sm">
+<span class="material-symbols-outlined text-4xl text-vitality-green mb-4">volunteer_activism</span>
+<h3 class="font-label-md text-label-md text-primary mb-2">Pelayanan Ramah</h3>
+<p class="text-sm text-on-surface-variant">Staf yang peduli dan bersahabat.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-20 bg-surface-gray" id="services">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-12">
+<span class="text-trust-blue font-label-md text-label-md uppercase tracking-wider">Layanan Medis</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Fasilitas &amp; Pelayanan Kami</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+<!-- Service Card 1 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">stethoscope</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Pemeriksaan Umum</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Layanan pemeriksaan kesehatan dasar oleh dokter berpengalaman untuk berbagai keluhan medis umum.</p>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">medical_services</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Bedah Minor</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Pelayanan bedah skala kecil untuk penanganan luka, pengangkatan benjolan kecil, dan prosedur minor lainnya.</p>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">dentistry</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Poli Gigi</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Perawatan kesehatan gigi dan mulut yang komprehensif untuk keluarga Anda.</p>
+</div>
+</div>
+<div class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8" id="extra-services">
+<!-- Service Card 4 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-vitality-green text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Unggulan</div>
+<div class="w-14 h-14 rounded-full bg-secondary-container/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-vitality-green text-2xl">pregnant_woman</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Kesehatan Ibu &amp; Anak (KIA)</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Pemantauan kehamilan, pemeriksaan pasca melahirkan, serta tumbuh kembang anak.</p>
+</div>
+<!-- Service Card 5 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">vaccines</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Imunisasi</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Penyediaan berbagai jenis vaksinasi dasar dan tambahan untuk melindungi anak dari penyakit.</p>
+</div>
+<!-- Service Card 6 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">science</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Laboratorium</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Fasilitas pengujian medis untuk mendukung diagnosis yang akurat dan cepat.</p>
+</div>
+<!-- Service Card 7 -->
+<div class="bg-white p-6 rounded-2xl border border-outline/10 hover:soft-shadow transition-shadow flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-trust-blue text-2xl">diversity_1</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Pelayanan KB</h3>
+<p class="text-on-surface-variant mb-4 flex-grow">Konsultasi dan layanan Keluarga Berencana yang aman dan disesuaikan dengan kebutuhan Anda.</p>
+</div>
+</div>
+<div class="flex justify-center mb-16">
+<button class="inline-flex items-center gap-2 border border-trust-blue px-8 py-3 rounded-lg font-label-md text-label-md text-trust-blue hover:bg-trust-blue hover:text-white transition-all" onclick="toggleSection('extra-services', this)">
+<span class="">Lihat Semua Layanan</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+</div>
+<div class="mb-8 mt-16 border-t border-outline/10 pt-12">
+<span class="text-trust-blue font-label-md text-label-md uppercase tracking-wider">Infrastruktur</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Fasilitas Klinik</h2>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">app_registration</span>
+<span class="font-label-md text-label-md text-primary">Ruang Pendaftaran</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">event_seat</span>
+<span class="font-label-md text-label-md text-primary">Ruang Tunggu</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">stethoscope</span>
+<span class="font-label-md text-label-md text-primary">Ruang Pemeriksaan Umum</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">personal_injury</span>
+<span class="font-label-md text-label-md text-primary">Ruang Tindakan</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">dentistry</span>
+<span class="font-label-md text-label-md text-primary">Ruang Gigi</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">child_care</span>
+<span class="font-label-md text-label-md text-primary">Ruang KIA</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">science</span>
+<span class="font-label-md text-label-md text-primary">Laboratorium</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">medication</span>
+<span class="font-label-md text-label-md text-primary">Ruang Farmasi</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">baby_changing_station</span>
+<span class="font-label-md text-label-md text-primary">Ruang Pojok ASI</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">mosque</span>
+<span class="font-label-md text-label-md text-primary">Mushola</span>
+</div>
+<div class="bg-white p-4 rounded-xl border border-outline/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-trust-blue">wc</span>
+<span class="font-label-md text-label-md text-primary">Toilet</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Schedule Section -->
+<section class="py-20 bg-white" id="schedule">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-12 text-center">
+<span class="text-trust-blue font-label-md text-label-md uppercase tracking-wider">Jadwal Dokter</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Jadwal Praktik Dokter</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 max-w-container-max mx-auto justify-items-center"><!-- Doctor 1 -->
+<div class="bg-surface-gray p-6 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center w-full max-w-md">
+<div class="w-24 h-24 rounded-full bg-primary-container/10 flex items-center justify-center mb-4 overflow-hidden border-2 border-trust-blue/20">
+<img alt="drg. JULIANA KANTARA" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH2S9KwNjEmBqNIiEhRCSfmDRYYdtigULx0cDof09mfobuMNUmukhVkoIvUij4A4-Yzt8nm4a8j3SqALojP3J6wgI9JJ233ous9lyEVvuNqA8At0NJV2Ghfs8r6p5bIsZpsNMCQayGSJIXozybkC7RJHr1K49EUjThGNmII-CNuHRlJuyUVt9CG1cycc9Ev07282KFpuXQ-DVp77bKz0WrGYnFlnn145jwt1Gkgn1h_Lv7bbWCxKnoi9P5_gAuvy3NHKL8swlsfdBW"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">drg. JULIANA KANTARA</h3>
+<p class="text-on-surface-variant font-label-md text-label-md mb-4 uppercase">DOKTER GIGI</p>
+<div class="bg-vitality-green/10 text-secondary px-4 py-2 rounded-lg w-full mb-6">
+<p class="font-label-md text-label-md uppercase">SENIN - JUM'AT</p>
+</div>
+</div>
+<!-- Doctor 2 -->
+<div class="bg-surface-gray p-6 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center w-full max-w-md">
+<div class="w-24 h-24 rounded-full bg-primary-container/10 flex items-center justify-center mb-4 overflow-hidden border-2 border-trust-blue/20">
+<img alt="dr. YAN ASRI" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8sPqG7CS-F66lUV-rxofMUSkbhwOwAmWX5tjKk76NUNEaWTa9qIkoJ5c0s02BprRnyYpZ70DeTCo1N7B8RwF5r1p6DwBeHCcwvkFp9GrfW_ZCRYHSdHllDlPSEJxI5eP0bj3hZVO7lyCPxTQQN2BycGp5ufYqgNEBL5CpW5ZCqIcu_IXKc978550EqmKyzXODtPCRUllXY7wZUZGnEK9TpuxunSQLCKw5zCMNKxcoPd7yMJRDXIYAcyGNYs7GUC3B-0ki-xroWltuC-Y"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">dr. YAN ASRI</h3>
+<p class="text-on-surface-variant font-label-md text-label-md mb-4 uppercase">DOKTER UMUM</p>
+<div class="bg-vitality-green/10 text-secondary px-4 py-2 rounded-lg w-full mb-6">
+<p class="font-label-md text-label-md uppercase">Senin - Selasa - Rabu</p>
+</div>
+</div>
+<!-- Doctor 3 -->
+<div class="bg-surface-gray p-6 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center w-full max-w-md">
+<div class="w-24 h-24 rounded-full bg-primary-container/10 flex items-center justify-center mb-4 overflow-hidden border-2 border-trust-blue/20">
+<img alt="dr. Adinda Shafira" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPLdmqkot9vqJ31hSA58KB3B5X1H4za5XnQXu97aF-MPR8KNCmmL3NJL8zdMidh1aiViwxQZBQcZGnZ-ENvWhfcTo1BFgiSJPgyLDyPtqlUbh1pJBwrm-UbePBiCGqTIOfjJ7DbHX7GMjiNZc3cbEdk2gD0P1TfR5DheTB3l37QnKYHb6cM-JpxlBrvY4jVxK5BqnIrF267oyr5O8X4TELgdk7QnT3hXjkX9JU35ZcVQnyz3QDo5YEXE0vTsKNuIhb_4mQIDiDOokt"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">dr. Adinda Shafira</h3>
+<p class="text-on-surface-variant font-label-md text-label-md mb-4 uppercase">DOKTER UMUM</p>
+<div class="bg-vitality-green/10 text-secondary px-4 py-2 rounded-lg w-full mb-6">
+<p class="font-label-md text-label-md uppercase">RABU - KAMIS - JUMAT</p>
+</div>
+</div></div>
+<div class="flex flex-wrap justify-center gap-8 mb-8 max-w-container-max mx-auto hidden" id="extra-doctors"><!-- Doctor 4 -->
+<div class="bg-surface-gray p-6 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center w-full max-w-md">
+<div class="w-24 h-24 rounded-full bg-primary-container/10 flex items-center justify-center mb-4 overflow-hidden border-2 border-trust-blue/20">
+<img alt="dr. Garnis SWANENGHYUN" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4ChTS1ssERP_8T6-NjF1a1JSu-vtiR1YZfHGnJ2U96545vhkdosNlBdzAhJ3EL2qtav3TKp8mMeZrHPvKW4bB5VDWsBsQHTCahrSzD-SuhRTF6HWcijqmGjM3CiIW4xR8WLctcBpuivLEOl_1B940wKczGQ9Vr915ZBJwcFypwIm4ABj5IOsi4v27WEFP4VrwHC7F-AGcNB5luUo06veM4wzOZxrMnnXKa-GbdoXk8WVymiiOPneaNA8E-Qwns_nsfuFFShS5hY5U"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">dr. Garnis SWANENGHYUN</h3>
+<p class="text-on-surface-variant font-label-md text-label-md mb-4 uppercase">DOKTER UMUM</p>
+<div class="bg-vitality-green/10 text-secondary px-4 py-2 rounded-lg w-full mb-6">
+<p class="font-label-md text-label-md uppercase">JUMAT - SABTU - MINGGU</p>
+</div>
+</div></div>
+<div class="flex justify-center">
+<button class="inline-flex items-center gap-2 border border-trust-blue px-8 py-3 rounded-lg font-label-md text-label-md text-trust-blue hover:bg-trust-blue hover:text-white transition-all" onclick="toggleSection('extra-doctors', this)">
+<span class="">Lihat Semua<br/></span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Map & Contact Section -->
+<section class="py-20 bg-surface-gray" id="advantages"><div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"><div class="mb-12 text-center"><span class="text-trust-blue font-label-md text-label-md uppercase tracking-wider">Kualitas Pelayanan</span><h2 class="font-headline-lg text-headline-lg text-primary mt-2">Keunggulan Kami</h2></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-primary-container/10 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-trust-blue text-3xl">fact_check</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Layanan yang lengkap</h3><p class="text-on-surface-variant">Tersedianya layanan poli umum, poli gigi umum, dan laboratorium.</p></div><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-secondary-container/20 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-vitality-green text-3xl">map</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Mudah diakses</h3><p class="text-on-surface-variant">Lokasi sangat strategis, berada disamping jalan provinsi.</p></div><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-primary-container/10 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-trust-blue text-3xl">favorite</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Pelayanan ramah</h3><p class="text-on-surface-variant">Suasana nyaman, dokter nyaman untuk diajak berkonsultasi.</p></div><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-secondary-container/20 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-vitality-green text-3xl">payments</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Biaya terjangkau</h3><p class="text-on-surface-variant">Biaya sangat terjangkau, dengan pelayanan yang sangat lengkap.</p></div><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-primary-container/10 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-trust-blue text-3xl">chair</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Ruang tunggu nyaman</h3><p class="text-on-surface-variant">Ruang tunggu yang sangat nyaman dan tidak berdesakan dengan pasien lain.</p></div><div class="bg-white p-8 rounded-2xl border border-outline/10 soft-shadow transition-all hover:-translate-y-1 flex flex-col items-center text-center"><div class="w-16 h-16 rounded-full bg-secondary-container/20 flex items-center justify-center mb-6"><span class="material-symbols-outlined text-vitality-green text-3xl">security</span></div><h3 class="font-headline-md text-headline-md text-primary mb-3">Privasi terjaga</h3><p class="text-on-surface-variant">Terjaganya privasi pasien dengan dokter karena ruang pemeriksaan tertutup dan privat.</p></div></div></div></section><section class="py-20 bg-white" id="contact">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Hubungi Kami</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-trust-blue mt-1">location_on</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Cabang 1</h4>
+<p class="text-on-surface-variant">Jl. Raya Jagawana depan taman jagawana, RT.04/RW.05, Sukarukun, Kec. Sukatani, Bekasi</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-trust-blue mt-1">location_on</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Cabang 2</h4>
+<p class="text-on-surface-variant">Gang ponpes riyadhul jannah, Jl. Raya Jagawana, RT.04/RW.02, Sukarukun, Kec. Sukatani, Bekasi</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-trust-blue mt-1">schedule</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Jam Operasional</h4>
+<p class="text-on-surface-variant">Buka Setiap Hari (08:00 - 21:00)</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-trust-blue mt-1">call</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary">Telepon / WhatsApp</h4>
+<p class="text-on-surface-variant">081398838478 / 085281761812</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-[400px]">
+<div class="rounded-2xl overflow-hidden h-full border border-outline/20 soft-shadow">
+<iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1839838960623!2d107.1558912!3d-6.239465599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698594666977c5%3A0x1ae1782b16e89f0e!2sKlinik%20Hikmah%20Husada!5e0!3m2!1sid!2sid!4v1778934467752!5m2!1sid!2sid" style="border:0;" width="100%"></iframe>
+</div>
+<div class="rounded-2xl overflow-hidden h-full border border-outline/20 soft-shadow">
+<iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.89505247281357!2d107.156411!3d-6.2213566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6985c8c8fa1453%3A0xbedab49bb382f35c!2sPraktek%20mandiri%20bidan%20hj%20hikmah%20wulandari%20%2CS.Tr.Keb%20%2C%20Bdn!5e0!3m2!1sid!2sid!4v1778934450808!5m2!1sid!2sid" style="border:0;" width="100%"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-inverse-surface w-full py-12 border-t border-outline-variant dark:border-outline">
+<div class="flex flex-col md:flex-row justify-between items-start gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="max-w-sm">
+<span class="text-headline-sm font-headline-sm text-trust-blue dark:text-primary-fixed block mb-4">KLINIK HIKMAH HUSADA</span>
+<p class="text-on-surface dark:text-inverse-on-surface font-body-md text-body-md opacity-80">
+                    © 2024 KLINIK HIKMAH HUSADA. Caring for Your Family's Health with Integrity.
+                </p>
+</div>
+<div class="flex flex-wrap gap-6 mt-6 md:mt-0">
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-trust-blue dark:hover:text-primary-fixed underline transition-all font-body-md text-body-md" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-trust-blue dark:hover:text-primary-fixed underline transition-all font-body-md text-body-md" href="#">Terms of Service</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-trust-blue dark:hover:text-primary-fixed underline transition-all font-body-md text-body-md" href="#">Emergency Guide</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-trust-blue dark:hover:text-primary-fixed underline transition-all font-body-md text-body-md" href="#">Patient Portal</a>
+</div>
+</div>
+</footer>
+<script class="">
+function toggleSection(id, btn) {
+    const el = document.getElementById(id);
+    const isHidden = el.classList.contains('hidden');
+    const textSpan = btn.querySelector('span:first-child');
+    const iconSpan = btn.querySelector('span:last-child');
+
+    if (isHidden) {
+        el.classList.remove('hidden');
+        textSpan.textContent = 'Sembunyikan';
+        iconSpan.textContent = 'expand_less';
+    } else {
+        el.classList.add('hidden');
+        const originalText = id === 'extra-services' ? 'Lihat Semua Layanan' : 'Lihat Semua Jadwal';
+        textSpan.textContent = originalText;
+        iconSpan.textContent = 'expand_more';
+        el.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    }
+}
+
+function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const icon = document.getElementById('mobile-menu-icon');
+    if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+        icon.textContent = 'close';
+    } else {
+        menu.classList.add('hidden');
+        icon.textContent = 'menu';
+    }
+}
+</script>
+</body></html>
